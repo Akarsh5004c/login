@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(69, 69, 215);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    background: whitesmoke;
+}
+.head{
+    padding: 20px 150px;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+  
+}
+.login_form{
+    padding: 20px 40px;
+}
+.login_form .font{
+    font-size: 21px;
+    color: black;
+    margin: 5px;
+    font-weight: bold;
+}
+.login_form input{
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+}
+.login_form .font2{
+    margin-top: 30px;
+}
+.login_form .font3{
+    margin-top: 30px;
+}
+.login_form .font4{
+    margin-top: 30px;
+}
+.login_form button{
+    margin: 45px 0 30px;
+    height: 45px;
+    width: 350px;
+
+}
+.login_form #conf_error,
+.login_form #mob_error,
+.login_form #username_error,
+.login_form #empty_error{
+    margin-top: 5px;
+    width: 340px;
+    font-size: 18px;
+    color: red;
+    text-align: center;
+    display: none;
+
+
+}
