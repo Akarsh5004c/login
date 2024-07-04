@@ -38,14 +38,18 @@
     
         if(a==''||b==''||c==''||d==''){
             alert("field cannot be empty");
-            
+            return false;
         }
         else if(b!=c){
             alert("password doesn't match");
+             return false;
         }
         else if(d.length!=10){
             alert("contact should conatin 10 numbers")
+             return false;
         }
+        else{
+            true;
        
     }
 
